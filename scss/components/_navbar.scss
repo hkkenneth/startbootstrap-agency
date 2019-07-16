@@ -21,6 +21,16 @@
       color: darken($primary, 10%);
     }
   }
+  .navbar-brand-en {
+    color: $primary;
+    @include body-font;
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($primary, 10%);
+    }
+  }
   .navbar-nav {
     .nav-item {
       .nav-link {
